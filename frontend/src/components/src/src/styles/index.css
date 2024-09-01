@@ -1,0 +1,19 @@
+/* Basic styles for your app */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .message-input,
+  .message-list,
+  .auth-form,
+  .profile {
+    margin: 20px;
+  }
+  
+  .message-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
